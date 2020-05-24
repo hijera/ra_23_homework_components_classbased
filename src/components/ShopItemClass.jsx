@@ -6,7 +6,7 @@ import '../css/main.css';
 export default class ShopItemClass extends React.Component {
     static propTypes={
         item: PropTypes.instanceOf(Item),
-    }
+    };
     render() {
         const { item } = this.props;
         return (
